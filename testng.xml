@@ -6,9 +6,9 @@
 	</listeners>
 	<test thread-count="5" name="PetTests">
 		<classes>
-			<!-- <class name="api.test.DataDrivenTests"/> -->
+			<class name="api.test.DataDrivenTests"/>
 			<class name="api.test.UserTests" />
-			<!-- <class name="api.test.ValidateJSONSchema"></class> -->
+			<class name="api.test.ValidateJSONSchema" />
 		</classes>
 	</test> <!-- PetTests -->
 </suite> <!-- PetSuite -->
